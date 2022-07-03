@@ -1,6 +1,5 @@
 header {
   background-color: var(--background-header-main-button);
-  cursor: pointer;
 }
 
 main {
@@ -90,7 +89,6 @@ body {
   text-decoration-line: underline;
   font-style: normal;
   color: var(--mail-footer-phone-footer);
-  cursor: pointer;
 }
 
 .phone-footer {
@@ -100,7 +98,6 @@ body {
   text-decoration-line: none;
   font-style: normal;
   color: var(--mail-footer-phone-footer);
-  cursor: pointer;
 }
 
 .link-button:hover {
