@@ -1,0 +1,122 @@
+header {
+  background-color: var(--background-header-main-button);
+  cursor: pointer;
+}
+
+main {
+  background-color: var(--background-header-main-button);
+}
+
+footer {
+  background-color: var(--background-footer);
+}
+
+button {
+  background-color: var(--background-header-main-button);
+  cursor: pointer;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+.webstudio-font {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.web-part-font {
+  color: #2196f3;
+}
+
+.menu-links-blue {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--menu-links-link-button-hover);
+  text-decoration: none;
+}
+
+.menu-links-black {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.contacts-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--subtitles-contacts);
+  text-decoration: none;
+}
+
+.pic-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.pic-subtitle {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--subtitles-contacts);
+}
+
+.address-footer {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--address-footer-link-button-focus);
+}
+
+.mail-footer {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  font-style: normal;
+  color: var(--mail-footer-phone-footer);
+  cursor: pointer;
+}
+
+.phone-footer {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration-line: none;
+  font-style: normal;
+  color: var(--mail-footer-phone-footer);
+  cursor: pointer;
+}
+
+.link-button:hover {
+  color: var(--menu-links-link-button-hover);
+}
+
+.link-button:focus {
+  color: var(--address-footer-link-button-focus);
+  background-color: var(--menu-links-link-button-hover);
+}
+
+:root {
+  --subtitles-contacts: #757575;
+  --background-header-main-button: #e5e5e5;
+  --background-footer: #2f303a;
+  --menu-links-link-button-hover: #2196f3;
+  --address-footer-link-button-focus: #ffffff;
+  --mail-footer-phone-footer: rgba(255, 255, 255, 0.6);
+}
