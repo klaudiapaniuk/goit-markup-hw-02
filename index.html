@@ -5,57 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <section>
         <nav>
-          <a href="https://klaudiapaniuk.github.io/goit-markup-hw-01/"
-            >WebStudio</a
-          >
-          <a href="Agencja">Agencja</a>
-          <a href="https://klaudiapaniuk.github.io/goit-markup-hw-02/"
+          <a class="webstudio-font link-button" href="index.html">
+            <span class="web-part-font link-button">Web</span>Studio
+          </a>
+          <a class="menu-links-black link-button" href="Agencja">Agencja</a>
+          <a class="menu-links-black link-button" href="portfolio.html"
             >Portfolio</a
           >
-          <a href="Kontakt">Kontakt</a>
+          <a class="menu-links-black link-button" href="Kontakt">Kontakty</a>
         </nav>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+48111111111">+48 111 111 111</a>
+        <a class="contacts-header link-button" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <a class="contacts-header link-button" href="tel:+48111111111"
+          >+48 111 111 111</a
+        >
       </section>
     </header>
 
     <main>
-      <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button>Zamów usługe</button>
+      <section class="background-index-button">
+        <h1 class="title-index">
+          EFEKTYWNE ROZWIĄZANIA <br />
+          DLA WASZEGO BIZNESU
+        </h1>
+        <button class="index-button">Zamów usługe</button>
       </section>
 
-      <section>
+      <section class="background-main-portfolio">
         <ul>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h3 class="lorem-ipsum">LOREM IPSUM</h3>
+            <p class="text-lorem-ipsum">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h3 class="lorem-ipsum">LOREM IPSUM</h3>
+            <p class="text-lorem-ipsum">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h3 class="lorem-ipsum">LOREM IPSUM</h3>
+            <p class="text-lorem-ipsum">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h3 class="lorem-ipsum">LOREM IPSUM</h3>
+            <p class="text-lorem-ipsum">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
@@ -63,77 +75,98 @@
         </ul>
       </section>
 
-      <section>
+      <section class="background-main-portfolio">
         <h2>Czym się zajmujemy</h2>
         <ul>
           <li>
-            <img src="pic1.jpg" width="370" height="294" alt="IT picture" />
+            <img
+              src="images/pic1.jpg"
+              width="370"
+              height="294"
+              alt="IT picture"
+            />
           </li>
           <li>
-            <img src="pic2.jpg" width="370" height="294" alt="IT picture" />
+            <img
+              src="images/pic2.jpg"
+              width="370"
+              height="294"
+              alt="IT picture"
+            />
           </li>
           <li>
-            <img src="pic3.jpg" width="370" height="294" alt="IT picture" />
+            <img
+              src="images/pic3.jpg"
+              width="370"
+              height="294"
+              alt="IT picture"
+            />
           </li>
         </ul>
       </section>
 
-      <section>
+      <section class="background-team">
         <h2>Nasz zespół</h2>
         <ul>
-          <li>
+          <li class="background-team-names">
             <img
-              src="photo1.jpg"
+              src="images/photo1.jpg"
               width="270"
               height="260"
               alt="John Doe Product Designer"
             /><br />
-            John Doe <br />
-            Product Designer
+            <span class="name-person">John Doe</span><br />
+            <span class="name-job">Product Designer</span>
           </li>
-          <li>
+          <li class="background-team-names">
             <img
-              src="photo2.jpg"
+              src="images/photo2.jpg"
               width="270"
               height="260"
               alt="John Doe Frontend Developer"
             /><br />
-            John Doe <br />
-            Frontend Developer
+            <span class="name-person">John Doe</span><br />
+            <span class="name-job">Frontend Developer</span>
           </li>
-          <li>
+          <li class="background-team-names">
             <img
-              src="photo3.jpg"
+              src="images/photo3.jpg"
               width="270"
               height="260"
               alt="John Doe Marketing"
             /><br />
-            John Doe <br />
-            Marketing
+            <span class="name-person">John Doe</span><br />
+            <span class="name-job">Marketing</span>
           </li>
-          <li>
+          <li class="background-team-names">
             <img
-              src="photo4.jpg"
+              src="images/photo4.jpg"
               width="270"
               height="260"
               alt="John Doe UI Designer"
             /><br />
-            John Doe <br />
-            UI Designer
+            <span class="name-person">John Doe</span><br />
+            <span class="name-job">UI Designer</span>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer-background">
       <section>
-        <p href="https://klaudiapaniuk.github.io/goit-markup-hw-01/">
-          WebStudio
-        </p>
-        <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+        <a class="webstudio-font link-button" href="index.html">
+          <span class="web-part-font link-button">Web</span>Studio</a
+        >
+        <p class="address-footer">m. Warszawa, Aleje Jerozolimskie 21</p>
         <address>
-          <p><a href="mailto:info@devstudio.com">info@example.com</a></p>
-          <p><a href="tel:+48111111111">+48 111 111 111</a></p>
+          <p>
+            <a class="mail-footer" href="mailto:info@devstudio.com"
+              >info@example.com</a
+            >
+          </p>
+          <p>
+            <a class="phone-footer" href="tel:+48111111111">+48 111 111 111</a>
+          </p>
         </address>
       </section>
     </footer>

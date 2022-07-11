@@ -2,11 +2,11 @@ header {
   background-color: var(--background-header-main-button);
 }
 
-main {
+.background-main-portfolio {
   background-color: var(--background-header-main-button);
 }
 
-footer {
+.footer-background {
   background-color: var(--background-footer);
 }
 
@@ -17,7 +17,20 @@ button {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  font-weight: 400;
+  color: var(--text-font);
+}
+
+.background-index-button {
+  background-color: var(--background-footer);
+}
+
+.background-team {
+  background: var(--background-page);
+}
+
+.background-team-names {
+  background-color: var(--address-footer-link-button-focus);
 }
 
 .webstudio-font {
@@ -31,7 +44,7 @@ body {
 }
 
 .web-part-font {
-  color: #2196f3;
+  color: var(--menu-links-link-button-hover);
 }
 
 .menu-links-blue {
@@ -48,7 +61,7 @@ body {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--text-font);
   text-decoration: none;
 }
 
@@ -116,4 +129,82 @@ body {
   --menu-links-link-button-hover: #2196f3;
   --address-footer-link-button-focus: #ffffff;
   --mail-footer-phone-footer: rgba(255, 255, 255, 0.6);
+  --text-font: #212121;
+  --background-page: #f5f4fa;
+}
+
+.title-index {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--address-footer-link-button-focus);
+}
+
+.index-button {
+  background: var(--menu-links-link-button-hover);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--address-footer-link-button-focus);
+}
+
+.lorem-ipsum {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-font);
+}
+
+.text-lorem-ipsum {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--subtitles-contacts);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-font);
+}
+
+.name-person {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-font);
+}
+
+.name-job {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--subtitles-contacts);
+}
+
+.button-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-font);
+  background: var(--background-page);
 }
